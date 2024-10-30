@@ -33,7 +33,6 @@ export const Primary: Story = {
     variant: "primary",
     size: "md",
   },
-  render: (args) => <Button {...args} />,
 };
 
 export const Secondary: Story = {
@@ -42,7 +41,6 @@ export const Secondary: Story = {
     variant: "secondary",
     size: "md",
   },
-  render: (args) => <Button {...args} />,
 };
 
 export const Tertiary: Story = {
@@ -51,5 +49,4 @@ export const Tertiary: Story = {
     variant: "tertiary",
     size: "md",
   },
-  render: (args) => <Button {...args} />,
 };
